@@ -8,7 +8,7 @@ If you want to try some of the stuff in the tutorial I mailed around before tomo
 
 Trying to add something...!!!
 
-Happy Birthday, Nick! Nick is the best. 
+Fine. No birthdays for Nick. 
 
 Testing again
 
