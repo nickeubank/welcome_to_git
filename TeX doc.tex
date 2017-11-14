@@ -1,0 +1,104 @@
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
+\usepackage{setspace}
+\doublespacing
+\usepackage{hyperref}
+	\hypersetup{%draft,
+    colorlinks=true,
+    linktoc=all,
+    linkcolor=blue}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,arrows,decorations}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{amsmath,amssymb,amsthm}
+	\newtheorem{theorem}{Theorem} %[paragraph]
+	\newtheorem{lemma}{Lemma}
+	\newtheorem{proposition}[theorem]{Proposition}
+	\newtheorem{corollary}{Corollary}
+	\newtheorem{claim}[theorem]{Claim}
+	\newtheorem{taggedtheoremx}{Proposition}
+	\newenvironment{taggedtheorem}[1]
+ 	{\renewcommand\thetaggedtheoremx{#1}\taggedtheoremx}
+	{\endtaggedtheoremx}
+	%\newenvironment{proof}[1][Proof]{\begin{trivlist}
+	%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+	\newenvironment{definition}[1][Definition]{\begin{trivlist}
+	\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+	\newenvironment{example}[1][Example]{\begin{trivlist}
+	\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+	\newenvironment{remark}[1][Remark]{\begin{trivlist}
+	\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+	\renewcommand{\qedsymbol}{$\blacksquare$}
+\newcommand{\st}{\text{ s.t. }}
+\newcommand{\amp}{\;\&\:}
+\newcommand{\lmat}{\left(\begin{matrix}}
+\newcommand{\rmat}{\end{matrix}\right)}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% \multicolumn{1}{\textwidth}{%TEXT}
+\usepackage{harvard}
+\usepackage{babel}
+\usepackage{multirow}
+\usepackage{footmisc}
+\usepackage{comment}
+%\renewcommand\footnotelayout{\fontsize{10}{18}\selectfont}
+%\setlength{\footnotesep}{.67\baselineskip}
+
+\begin{document}
+
+\title{TeX Template\\\Large Subtitle}
+\author{Dan Alexander\footnote{Vanderbilt University -- dan.alexander@vanderbilt.edu}}
+\maketitle
+
+I'm ready to co-author! Let's do it!!
+
+I would describe my working style as frenetic.
+
+
+
+%\begin{abstract}
+%\end{abstract}
+
+%Keywords:
+
+%Word count:
+
+%\tableofcontents
+
+%\thispagestyle{empty}
+
+%\clearpage
+
+%\setcounter{page}{1}
+
+%\clearpage
+%\bibliographystyle{apsr}
+%\bibliography{references}
+
+%\appendix
+%\clearpage
+%\part*{Appendix}
+
+\end{document}
+
+\begin{comment}
+\begin{table}
+\centering
+\caption{Name of Game}
+\vspace{12pt}
+\begin{tabular}{lccc}
+	& & \multicolumn{2}{c}{Player 2} \vspace{6pt}\\
+	& & $a_1^2$ & $a_2^2$ \vspace{3pt}\\
+	\cline{3-4}
+	\multirow{2}{*}{Player 1} & $a_1^1$ & \multicolumn{1}{|c}{$-c_i$} & \multicolumn{1}{|c|}{$b-c_i$} \\
+	\cline{3-4}
+	& $a_2^1$ & \multicolumn{1}{|c}{$-d$} & \multicolumn{1}{|c|}{0} \\
+	\cline{3-4}
+\end{tabular}
+\end{table}
+\end{comment}
