@@ -4,4 +4,8 @@ This is just a little text document we can all try and edit!
 
 :)
 
+<<<<<<< HEAD
 Zaphod Beetlebrox and the Heart of Gold.
+=======
+Trillian is a dog who is here for some reason.
+>>>>>>> 3ae296cc1352375e99f391fe0be2b4e378f5a066
